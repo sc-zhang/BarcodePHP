@@ -1,4 +1,4 @@
-# A PHP class for generating EAN 8/13 barcode
+# A PHP library for generating EAN 8/13 barcode
 
 ### Usage
 * Generate image url like below

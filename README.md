@@ -23,7 +23,7 @@ $url="barcodeEAN/EAN.php?barNumber=00123457&magHeight=1&magWidth=1&dpi=100&showN
 ### Notice
 * php must be installed with gd and freetype support
 
-[##](##) Demo
+### Demo
 | Type | Barcode |
 | --- | --- |
 | EAN8 | ![alt](DemoImage/EAN8-00123457.png) |

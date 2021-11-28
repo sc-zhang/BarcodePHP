@@ -15,14 +15,15 @@ $url="barcodeEAN/EAN.php?barNumber=00123457&magHeight=1&magWidth=1&dpi=100&showN
 | $dpi | The dpi of barcode image |
 | $showNumber | display the value of barcode (1: on, 0: off) |
 
-
-
 * Add html code like below to display where the barcode need display
 ```html
 <img id='barcode1' src=$url/>
 ```
 
-## Demo
+### Notice
+* php must be installed with gd and freetype support
+
+[##](##) Demo
 | Type | Barcode |
 | --- | --- |
 | EAN8 | ![alt](DemoImage/EAN8-00123457.png) |

@@ -49,8 +49,8 @@ class BarcodeEAN{
 		}
 		else{
             // display error image
-			$im=imagecreatefromjpeg('..\\images\\error.jpg');
-			$sizeImage=getimagesize('..\\images\\error.jpg');
+			$im=imagecreatefromjpeg('../images/error.jpg');
+			$sizeImage=getimagesize('../images/error.jpg');
 			$imWidth=$sizeImage['0'];
 			$imHeight=$sizeImage['1'];
 			if($this->magHeight>$this->magWidth){
@@ -166,7 +166,7 @@ class BarcodeEAN{
 						$posText=(43+($i-4)*7)*$singleWidth;
 					}
 				}
-				imagettftext($imageArea,$textSize,0,$posText,$textHeight,$black,"..\\fonts\\OCR-B 10 BT.ttf",$this->barNumber[$i]);
+				imagettftext($imageArea,$textSize,0,$posText,$textHeight,$black,"../fonts/OCR-B 10 BT.ttf",$this->barNumber[$i]);
 			}
 		}
 
